@@ -1,3 +1,5 @@
+//Const : - Once assigned, you cannot reassign it.
+//Let : -  You can change its value later.
 
 //  Primitive
 
@@ -5,7 +7,6 @@
 
 const score = 100
 const scoreValue = 100.3
-
 const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
@@ -13,7 +14,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
@@ -35,6 +36,7 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+console.log(typeof id);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
@@ -48,19 +50,27 @@ let myYoutubeName = "chiragdotcom"
 let anothername = myYoutubeName
 anothername = "chaiwithcode"
 
-console.log(myYoutubeName)
-console.log(anothername)
+// console.log(myYoutubeName)
+// console.log(anothername)
 
-let UserOne =  {
+const UserOne =  {
     email: "chiragtiwari@google.com",
     Upi: "upi@123"
 }
-let UserTwo = UserOne
+const UserTwo = UserOne
 UserTwo.email = "nananaa@google.com"
 console.log(UserOne.email)
 console.log(UserTwo.email)
 
 
 
+//****************************Practice***********************
 
+// const arr = [1,2,3,45,5]
+// console.log(arr)
 
+// let myfunc = function(){
+// console.log("hello guys")
+// }
+
+// console.log(myfunc)

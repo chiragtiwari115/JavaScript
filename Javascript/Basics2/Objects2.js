@@ -68,7 +68,7 @@ const course = {
 const {courseInstructor: instructor} = course //: instructor is the short name we gave to courseInstructor
 
 // console.log(courseInstructor);
-console.log(instructor);
+console.log(instructor);      //destructuring of object
 
 // {
 //     "name": "hitesh",

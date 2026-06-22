@@ -1,6 +1,6 @@
 let score = "chirag"
 
-// console.log(typeof score)
+// console.log(typeof score).  //gives the data type
 // console.log(typeof(score))
 
 // *********************** Operations ***********************
@@ -13,7 +13,7 @@ let negvalue = -value
 // console.log(2+2);
 // console.log(2-2);
 // console.log(2*2);
-// console.log(2**3);
+// console.log(2**3);  // 2 cube ** = exponensial power
 // console.log(2/3);
 // console.log(2%3);
 
@@ -23,9 +23,9 @@ let string3 = string1 + string2
 // console.log(string3)
 
 // console.log("1" + 1)
-// console.log(2 + "2")
+// console.log(1 + "6")
 // console.log(2 + 2 + "3")
-// console.log("3" + 2 + 2)
+// console.log("3" + 2 + 2) //output will be 322
 
 // console.log((3 + 4) * 5 % 3)
 
@@ -40,6 +40,13 @@ num1 = num2 = num3 = 2+2
 
 let gamecounter = 100
 ++gamecounter
-console.log(gamecounter)
+// console.log(gamecounter)
 
 
+
+
+// *********************** Practice ***********************
+
+// let fname = 'Chirag '
+// let lname = 'Tiwari'
+// console.log (fname + lname)
